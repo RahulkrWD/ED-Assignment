@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Icon of WebPage -->
+    <link rel="shortcut icon" type="x-icon" href="image/x-icon.png" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the WebPage -->
+    <title>Restaurants Home Page</title>
+    <!-- Linking Bootstrap through CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- Linking External CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header of the Restaurant -->
+    <header>
+      <nav>
+        <button class="login-button">Login</button>
+        <button class="new-users">Create an account</button>
+      </nav>
+
+      <center>
+        <div class="container">
+          <img src="image/zomato-logo.avif" alt="zomato-logo" />
+          <h1>Find the best Restaurants, cafes. and, bars</h1>
+          <!-- Select Locaton -->
+          <select class="select-location">
+            <option value="">Please type a location</option>
+            <option>Sarjapur Road, Bengaluru</option>
+            <option>HSR Layout, Bengaluru</option>
+            <option>Kormangala, Bengaluru</option>
+            <option>Jay Nagar, Bengaluru</option>
+          </select>
+          <input
+            class="search-bar"
+            type="text"
+            placeholder="Search for Restaurants"
+            name="Search" />
+        </div>
+      </center>
+    </header>
+    <!-- Search meals -->
+    <div class="search-meals">
+      <h2>Quick Searches</h2>
+      <span>Discover Restaurants by type of meal</span>
+
+      <div class="meals">
+        <fieldset>
+          <img src="image/Breakfast.png" alt="Breakfast" />
+          <figcaption>
+            <h4>Breakfast</h4>
+            <article>Start your day with exclusive breakfast options</article>
+          </figcaption>
+        </fieldset>
+
+        <fieldset>
+          <img src="image/Lunch.png" alt="Lunch" />
+
+          <figcaption>
+            <h4>Lunch</h4>
+            <article>Start your day with exclusive lunch options</article>
+          </figcaption>
+        </fieldset>
+
+        <fieldset>
+          <img src="image/sancks.png" alt="Snacks" />
+
+          <figcaption>
+            <h4>Snacks</h4>
+            <article>Start your day with exclusive snacks options</article>
+          </figcaption>
+        </fieldset>
+
+        <fieldset>
+          <img src="image/Dinner.png" alt="Dinner" />
+          <figcaption>
+            <h4>Dinner</h4>
+            <article>Start your day with exclusive dinner options</article>
+          </figcaption>
+        </fieldset>
+
+        <fieldset>
+          <img src="image/Drinks.png" alt="Drinks" />
+          <figcaption>
+            <h4>Drinks</h4>
+            <article>Start your day with exclusive drinks options</article>
+          </figcaption>
+        </fieldset>
+
+        <fieldset>
+          <img src="image/Nightlife.jpg" alt="Nightlife" />
+          <figcaption>
+            <h4>Lunch</h4>
+            <article>Start your day with exclusive Nightlife options</article>
+          </figcaption>
+        </fieldset>
+      </div>
+    </div>
+  </body>
+</html>

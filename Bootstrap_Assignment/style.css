@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  height: 80vh;
+  background-image: linear-gradient(#9d0e0e00, #4f0707), url(image/header.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  padding: 20px 10%;
+  float: right;
+}
+.login-button {
+  border: transparent;
+  background: transparent;
+  color: #ffffff;
+  font-size: large;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.new-users {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 10px 15px;
+  color: #ffffff;
+  border-radius: 3px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+center {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container img {
+  width: 35%;
+}
+
+.container h1 {
+  margin-top: 50px;
+  color: white;
+  padding: 0 50px;
+}
+
+select {
+  color: #8c96ab;
+  outline: none;
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 40px 10px;
+}
+select option {
+  background-color: white;
+  color: #8c96ab;
+  border-radius: 30px;
+}
+input {
+  outline: none;
+  width: 420px;
+  padding: 12px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: medium;
+  border-radius: 5px;
+  background-image: url(image/search.svg);
+  background-repeat: no-repeat;
+  background-position: 15px;
+  padding: 13px 45px;
+}
+
+h2 {
+  margin: 25px 10px;
+}
+span {
+  color: #8c96ab;
+  margin: 25px 10px;
+}
+
+h2,
+h4 {
+  color: #192f60;
+}
+article {
+  font-size: 13px;
+  color: #8c96ab;
+  margin: 7px 0;
+}
+.search-meals {
+  padding: 50px 10%;
+}
+
+.search-meals .meals {
+  display: flex;
+  flex-wrap: wrap;
+}
+.meals img {
+  width: 150px;
+}
+fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  border: transparent;
+  box-shadow: 2px 2px 4px #00000029;
+  cursor: pointer;
+}
+figcaption {
+  margin: 20px;
+  width: 130px;
+}
+
+/* CSS responsive */
+@media (max-width: 930px) {
+  fieldset {
+    width: fit-content;
+  }
+  .search-meals {
+    padding: 20px 10px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 760px) {
+  fieldset {
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .meals img {
+    width: 170px;
+    height: 120px;
+  }
+}
+@media (max-width: 500px) {
+  input {
+    width: 70%;
+  }
+  .search-meals {
+    padding: 50px 10px;
+  }
+}
+@media (max-width: 400px) {
+  fieldset {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .meals img {
+    width: 100px;
+  }
+  figcaption {
+    margin: 7px;
+    width: 100px;
+  }
+}
