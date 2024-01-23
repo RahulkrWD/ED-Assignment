@@ -1,0 +1,31 @@
+.container {
+    background-color: #530353;
+    padding: 30px;
+    color: white;
+  }
+  .links {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .iconsLinkedin,
+  .iconsGithub,
+  .iconsInsta {
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px 5px;
+    border-radius: 5px;
+  }
+  .iconsLinkedin {
+    color: white;
+    background-color: blue;
+  }
+  .iconsGithub {
+    color: black;
+    background-color: lightgrey;
+  }
+  .iconsInsta {
+    color: #bc2a8d;
+    background-color: white;
+  }
+  

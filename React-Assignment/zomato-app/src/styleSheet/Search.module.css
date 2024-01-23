@@ -1,0 +1,39 @@
+
+
+.link{
+    text-decoration: none;
+    text-align: start;
+  }
+  .restaurantName{
+    font-size: 19px;
+    color: black;
+  }
+  .searchImg{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    float: left;
+    margin: 0 20px;
+    border-radius: 20px;
+  
+  }
+  .dropDownContainer{
+    display: inline;
+    
+  }
+  .select{
+    padding: 15px 0;
+    width: 75%;
+  
+  
+  
+  }
+  @media (max-width:1000px) {
+    .select{
+      width: 65%;
+    
+    }
+    
+  }
+  
+  
